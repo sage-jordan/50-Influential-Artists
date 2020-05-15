@@ -87,7 +87,7 @@ video {
   vertical-align: baseline;
 }
 body {
-  width: 95%;
+  width: 85%;
   margin: auto;
   font-size: 62.5%;
 }
@@ -95,7 +95,8 @@ header {
   width: 90%;
   display: flex;
   justify-content: center;
-  margin: 5%;
+  height: 15vh;
+  margin: auto;
 }
 header nav {
   font-size: 1.4rem;
@@ -110,6 +111,33 @@ header nav a {
 }
 header nav a:nth-child(1) {
   border-left: none;
+}
+.title-container {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  background-image: url("../assets/home.png");
+  background-position: center;
+  background-size: cover;
+}
+.title-container h1 {
+  font-size: 3rem;
+  color: white;
+  align-self: center;
+  text-align: center;
+  padding-top: 15vw;
+}
+.title-container button {
+  width: 20vw;
+  margin: 5%;
+}
+hr {
+  margin-top: 4%;
+  border: 1px solid gray;
+  width: 100%;
 }
 .artists-container {
   width: 100%;
