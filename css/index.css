@@ -166,9 +166,12 @@ header nav :nth-child(1) {
   padding-top: 15vw;
 }
 .title-container button {
-  width: 15vw;
+  width: 6rem;
   margin: 5%;
   color: #555252;
+  box-shadow: 2px 2px black;
+  border-radius: 2px;
+  white-space: nowrap;
 }
 @media (max-width: 500px) {
   .title-container button {
