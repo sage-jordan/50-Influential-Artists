@@ -79,8 +79,8 @@ _You will know everything is working properly when you see the styles enabled fo
 - [x] Main Content Styles: Use the `main.less` file for styling.
 - [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins.
 - [x] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
-- [ ] Use at least 2 parameters to create your button.
-- [ ] Add responsive breakpoints to your code for 500px such that your styles match the mobile design file.
+- [x] Use at least 2 parameters to create your button.
+- [x] Add responsive breakpoints to your code for 500px such that your styles match the mobile design file.
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
