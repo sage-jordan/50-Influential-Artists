@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 4. What is the purpose of using functions in code?
 5. What is a JSON data?
 
-You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
 ## Instructions
 
@@ -40,23 +40,23 @@ Follow these steps to set up your project:
 
 #### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your Team Lead as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 #### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
-* [ ] In your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+- [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+- [ ] In your project's root folder, run the following command `less-watch-compiler less css index.less`
+- [ ] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
+- [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
-### Task 2a:  Minimum Viable Product - PreProcessing
+### Task 2a: Minimum Viable Product - PreProcessing
 
 #### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+- [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -68,19 +68,19 @@ Follow these steps to set up your project:
 7.cta.less
 ```
 
-_You will know everything is working properly when you see the styles enabled for the provided content._  
+_You will know everything is working properly when you see the styles enabled for the provided content._
 
 #### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
-* [ ] Add a viewport meta tag to the head of your index.html page.
-* [ ] [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html).
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
-* [ ] Main Content Styles: Use the `main.less` file for styling.
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins.
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
-* [ ] Use at least 2 parameters to create your button.
-* [ ] Add responsive breakpoints to your code for 500px such that your styles match the mobile design file.
+- [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+- [ ] Add a viewport meta tag to the head of your index.html page.
+- [ ] [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html).
+- [ ] Navigation Styles: Use the `navigation.less` file for styling.
+- [ ] Main Content Styles: Use the `main.less` file for styling.
+- [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins.
+- [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
+- [ ] Use at least 2 parameters to create your button.
+- [ ] Add responsive breakpoints to your code for 500px such that your styles match the mobile design file.
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
@@ -90,11 +90,11 @@ Navigate to `index.js` and complete the MVP challenges. Note that you need to sc
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals, also listed in `index.js`, where applicable:
 
-* [ ] Use JavaScript to programmatically create HTML elements in the console and copy them to display all 20 artists on the page
-* [ ] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
-* [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
-* [ ] Add responsive breakpoints to your code by using media queries
-* [ ] Add CSS animations
+- [ ] Use JavaScript to programmatically create HTML elements in the console and copy them to display all 20 artists on the page
+- [ ] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
+- [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
+- [ ] Add responsive breakpoints to your code by using media queries
+- [ ] Add CSS animations
 
 ## Resources
 
@@ -108,6 +108,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master
