@@ -23,17 +23,13 @@
   }
 
   button {
-    width: 20vw;
-    margin: 5%;
-    @media @mobile {
-      width: 30%;
-    }
+    .contact-btn(@light-black);
   }
 }
 
 hr {
   margin-top: 4%;
-  border: 1px solid gray;
+  border: 1px solid @light-black;
   width: 100%;
 }
 
@@ -61,10 +57,10 @@ hr {
       .font(1rem);
       margin: 4% auto;
       text-decoration: none;
-      color: rgb(47, 47, 47);
+      color: @light-black;
     }
     div {
-      color: rgb(47, 47, 47);
+      color: @light-black;
       .font(0.6rem);
       text-align: center;
     }

@@ -77,8 +77,8 @@ _You will know everything is working properly when you see the styles enabled fo
 - [x] [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html).
 - [x] Navigation Styles: Use the `navigation.less` file for styling.
 - [x] Main Content Styles: Use the `main.less` file for styling.
-- [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins.
-- [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
+- [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins.
+- [x] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
 - [ ] Use at least 2 parameters to create your button.
 - [ ] Add responsive breakpoints to your code for 500px such that your styles match the mobile design file.
 
