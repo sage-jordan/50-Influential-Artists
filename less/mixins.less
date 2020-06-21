@@ -1,0 +1,14 @@
+.font(@size) {
+  font-size: @size;
+}
+.contact-btn(@color, @margin) {
+  width: 6rem;
+  margin: @margin;
+  color: @color;
+  box-shadow: 2px 2px black;
+  border-radius: 2px;
+  white-space: nowrap;
+  @media @mobile {
+    width: 20%;
+  }
+}
